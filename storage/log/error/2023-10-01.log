@@ -1,0 +1,5 @@
+[2023-10-01T16:27:33.881496+00:00] error.ERROR: Undefined variable $todos message: "Undefined variable $todos"     file: "/Users/bekir/Desktop/projects/starter-pack/storage/cache/view/4c83734c331bb4f03612b545e894ce89ac68e9df.php:25 [] []
+[2023-10-01T16:27:34.016895+00:00] error.ERROR: Undefined variable $todos (View: /Users/bekir/Desktop/projects/starter-pack/public/view/home.blade.php)          storage/cache/view/4c83734c331bb4f03612b545e894ce89ac68e9df.php:25 [] []
+[2023-10-01T16:27:37.832610+00:00] error.ERROR: Undefined variable $todos message: "Undefined variable $todos"     file: "/Users/bekir/Desktop/projects/starter-pack/storage/cache/view/4c83734c331bb4f03612b545e894ce89ac68e9df.php:25 [] []
+[2023-10-01T16:27:37.833593+00:00] error.ERROR: Undefined variable $todos (View: /Users/bekir/Desktop/projects/starter-pack/public/view/home.blade.php)          storage/cache/view/4c83734c331bb4f03612b545e894ce89ac68e9df.php:25 [] []
+[2023-10-01T16:27:38.541876+00:00] error.ERROR: View [layout] not found. (View: /Users/bekir/Desktop/projects/starter-pack/public/view/admin/home.blade.php)          vendor/illuminate/view/FileViewFinder.php:137 [] []

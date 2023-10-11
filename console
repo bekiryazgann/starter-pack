@@ -1,0 +1,8 @@
+#!bin/php
+<?php
+
+use src\Console\Run;
+
+require __DIR__ . '/vendor/autoload.php';
+
+$console = new Run();

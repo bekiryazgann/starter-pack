@@ -1,0 +1,2 @@
+[2023-09-11T16:44:51.828700+00:00] error.ERROR: Typed static property src\Router\RouterCommand::$instance must not be accessed before initialization          src/Router/RouterCommand.php:114 [] []
+[2023-09-11T16:45:03.631489+00:00] error.ERROR: Typed static property src\Router\RouterCommand::$instance must not be accessed before initialization          src/Router/RouterCommand.php:114 [] []

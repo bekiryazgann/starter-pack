@@ -1,0 +1,1 @@
+[2023-10-09T10:54:31.321860+00:00] error.ERROR: Trying to crush the security layer. application has been stopped          src/Http/Request.php:33 [] []

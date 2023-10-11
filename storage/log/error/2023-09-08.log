@@ -1,0 +1,7 @@
+[2023-09-08T13:07:05.220244+00:00] error.ERROR: syntax error, unexpected single-quoted string "surname", expecting "]"          app/Controllers/Home.php:17 [] []
+[2023-09-08T15:29:04.236442+00:00] error.ERROR: Too few arguments to function src\Form::Input(), 0 passed in /Users/bekir/Desktop/projects/framework/storage/cache/a6a628d76c1b7aca3496eeaaaa0f265cf57686b5.php on line 12 and at least 1 expected (View: /Users/bekir/Desktop/projects/framework/public/view/home.blade.php)          src/Form.php:33 [] []
+[2023-09-08T15:29:32.402026+00:00] error.ERROR: Unknown format specifier """ (View: /Users/bekir/Desktop/projects/framework/public/view/home.blade.php)          src/Form.php:34 [] []
+[2023-09-08T15:29:33.120187+00:00] error.ERROR: Unknown format specifier """ (View: /Users/bekir/Desktop/projects/framework/public/view/home.blade.php)          src/Form.php:34 [] []
+[2023-09-08T15:30:03.315796+00:00] error.ERROR: Unknown format specifier "v" (View: /Users/bekir/Desktop/projects/framework/public/view/home.blade.php)          src/Form.php:35 [] []
+[2023-09-08T15:30:03.977082+00:00] error.ERROR: Unknown format specifier "v" (View: /Users/bekir/Desktop/projects/framework/public/view/home.blade.php)          src/Form.php:35 [] []
+[2023-09-08T15:30:04.335254+00:00] error.ERROR: Unknown format specifier "v" (View: /Users/bekir/Desktop/projects/framework/public/view/home.blade.php)          src/Form.php:35 [] []

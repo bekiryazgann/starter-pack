@@ -1,0 +1,290 @@
+<<<<<<< HEAD
+@import url('https://pro.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('all.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:not([class^="icon-"]), html, body{
+    font-family: 'Inter', sans-serif;
+}
+
+.error-msg {
+    @apply border border-rose-200 bg-rose-100 text-rose-400 py-1.5 px-2.5 text-sm rounded my-2
+}
+
+.info-msg {
+    @apply border border-blue-200 bg-blue-100 text-blue-400 py-1.5 px-2.5 text-sm rounded my-2
+}
+
+*:focus {
+    @apply outline-none
+}
+
+@layer base {
+    :root {
+        --swiper-theme-color: #73bf44;
+    }
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev, .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        @apply z-50
+    }
+}
+
+.has-error {
+    border: 2px solid red;
+}
+
+.error-msg {
+    background: orangered;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.msg {
+    background: blue;
+    padding: 20px;
+    color: #fff;
+}
+
+img {
+    @apply select-none
+}
+
+.error-msg {
+    @apply bg-rose-100 text-rose-500 rounded border border-rose-500/20 p-1.5 px-2 my-1
+}
+
+.error-input {
+    @apply border border-rose-500 focus:border-rose-500 focus:border
+}
+
+.content-body {
+    @apply flex flex-col gap-4 bg-[#fcfcfc] border border-gray-300/30 p-7 rounded-lg
+}
+
+.form-item label {
+    @apply block mb-2 text-gray-900 text-sm
+}
+
+.form-item input, .form-item textarea, .form-item select {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:outline-none focus:border-gray-400 focus:bg-gray-100 transition duration-300 appearance-none
+}
+
+.aside-navigation {
+    @apply flex flex-col gap-1
+}
+
+.aside-navigation li a {
+    @apply rounded-xl text-gray-900 px-5 py-2.5 w-full flex gap-2 items-center hover:bg-gray-100 transition duration-300
+}
+
+.aside-navigation li a.active {
+    @apply bg-gray-100
+}
+
+[type="checkbox"], [type="radio"] {
+    --tw-shadow: 0 0 #0000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-origin: border-box;
+    border-color: #6b7280;
+    border-width: 1px;
+    color: #1c64f2;
+    display: inline-block;
+    flex-shrink: 0;
+    height: 1rem;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    width: 1rem
+}
+
+[type="checkbox"] {
+    border-radius: 0.25rem
+}
+
+[type="radio"] {
+    border-radius: 100%
+}
+
+[type="checkbox"]:focus, [type="radio"]:focus {
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    outline: 2px solid transparent;
+    outline-offset: 2px
+}
+
+[type="checkbox"]:checked, [type="radio"]:checked {
+    background-color: currentColor;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: .55em .55em;
+    border-color: transparent
+}
+
+[type="checkbox"]:checked {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 12'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M1 5.917 5.724 10.5 15 1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: .55em .55em;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact
+}
+
+[type="checkbox"]:indeterminate {
+    background-color: currentColor;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 12'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M1 5.917 5.724 10.5 15 1.5'/%3E%3C/svg%3E");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: .55em .55em;
+    border-color: transparent;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact
+}
+
+[type="checkbox"]:indeterminate:focus, [type="checkbox"]:indeterminate:hover {
+    background-color: currentColor;
+    border-color: transparent
+}
+
+table.features-table tbody tr td {
+    @apply lg:py-5 py-2.5 px-0 lg:pr-10 pr-4
+}
+
+table.features-table tbody tr td.table-key {
+    @apply text-zinc-900 font-bold lg:text-base text-sm
+}
+
+table.features-table tbody tr td.table-value {
+    @apply text-neutral-600 font-medium lg:text-base text-sm
+}
+
+table.features-table tbody tr:not(:last-child) {
+    @apply border-b border-[#CCCCCC]
+}
+
+form.form-container {
+    @apply flex flex-col gap-4
+=======
+*, ::after, ::before {
+    box-sizing: border-box
+}
+
+html {
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4
+}
+
+body {
+    margin: 0
+}
+
+hr {
+    height: 0;
+    color: inherit
+}
+
+abbr[title] {
+    text-decoration: underline dotted
+}
+
+b, strong {
+    font-weight: bolder
+}
+
+code, kbd, pre, samp {
+    font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+table {
+    text-indent: 0;
+    border-color: inherit
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button, select {
+    text-transform: none
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button
+}
+
+::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+:-moz-ui-invalid {
+    box-shadow: none
+}
+
+legend {
+    padding: 0
+}
+
+progress {
+    vertical-align: baseline
+}
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+summary {
+    display: list-item
+>>>>>>> a667e691a425793e5e424af40e632536841c9773
+}

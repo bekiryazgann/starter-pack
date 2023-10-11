@@ -1,0 +1,4 @@
+[2023-10-10T22:00:35.292545+00:00] error.ERROR: syntax error, unexpected token "<<"          app/Controllers/Home.php:19 [] []
+[2023-10-10T22:01:50.607190+00:00] error.ERROR: Class "app\Controllers\Cache" not found          app/Controllers/Home.php:51 [] []
+[2023-10-10T22:01:51.617027+00:00] error.ERROR: Class "app\Controllers\Cache" not found          app/Controllers/Home.php:51 [] []
+[2023-10-10T22:02:32.588686+00:00] error.ERROR: Class "app\Controllers\Cache" not found          app/Controllers/Home.php:51 [] []

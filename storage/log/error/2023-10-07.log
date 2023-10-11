@@ -1,0 +1,2 @@
+[2023-10-07T12:38:35.624182+00:00] error.ERROR: View [layout] not found. (View: /Users/bekir/Desktop/projects/starter-pack/public/view/home.blade.php)          vendor/illuminate/view/FileViewFinder.php:137 [] []
+[2023-10-07T12:38:36.675415+00:00] error.ERROR: View [layout] not found. (View: /Users/bekir/Desktop/projects/starter-pack/public/view/home.blade.php)          vendor/illuminate/view/FileViewFinder.php:137 [] []
