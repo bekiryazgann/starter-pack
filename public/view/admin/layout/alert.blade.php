@@ -1,5 +1,5 @@
 @if($message = json_decode(session()->get('system-message')))
-    <div class="max-w-sm p-4 bg-white rounded-xl shadow-xl border border-gray-300 justify-start items-start gap-4 inline-flex fixed bottom-[1.5rem] right-[1.5rem] transition duration-200 z-50">
+    <div class="max-w-sm p-4 bg-white rounded-xl shadow-xl border border-gray-300 justify-start items-start gap-4 inline-flex fixed top-[1.5rem] left-2/4 -translate-x-2/4 transition duration-200 z-[99999]">
         <div class="grow shrink basis-0 pr-8 justify-start items-start gap-4 flex p-">
             <div class="w-5 h-5 relative rounded-full">
                 <div class="w-5 h-5 left-0 top-0 absolute text-gray-500">

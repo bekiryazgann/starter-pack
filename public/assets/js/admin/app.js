@@ -48,13 +48,16 @@ let toggle = () => {
 
 
 let alertClose = document.querySelector('#alert-close');
-if (alertClose !== undefined){
+if (alertClose !== undefined) {
     let alertElement = alertClose?.parentElement?.parentElement;
     alertClose?.addEventListener('click', e => {
-        alertElement.classList.add('opacity-0')
+        alertElement.classList.add('-translate-y-[120px]')
         setTimeout(() => {
-            alertElement.classList.add('hidden')
-        }, 250);
+            alertElement.classList.add('opacity-0')
+            setTimeout(() => {
+                alertElement.classList.add('hidden')
+            }, 250);
+        }, 250)
     })
 }
 
@@ -66,7 +69,7 @@ menuCollapse.forEach(container => {
     let icon = trigger.querySelector('i.icon-chevron-down')
     let height = content.querySelector('div').offsetHeight
     trigger.addEventListener('click', e => {
-        if (state){
+        if (state) {
             content.style.height = '0';
             content.dataset.state = 'false'
         } else {

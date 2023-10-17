@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="framework-development" pattern="file[framework]:app/*/*||file[framework]:public/*/*||file[framework]:config/*/*||file[framework]:storage/*/*||file:.htaccess||file:composer.json||file:console||file:index.php||file:package.json||file:tailwind.config.js||file:readme.md" />
-</component>
